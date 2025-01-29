@@ -1,0 +1,17 @@
+{
+    "person1": {
+      "name": "John",
+      "age": 30,
+      "city": "New York"
+    },
+    "person2": {
+      "name": "Jack",
+      "age": 37,
+      "city": "Austin"
+    },
+    "person3": {
+      "name": "Jake",
+      "age": 32,
+      "city": "Los Angeles"
+    }
+  }

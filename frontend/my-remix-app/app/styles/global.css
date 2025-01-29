@@ -1,0 +1,7 @@
+@import "bulma/css/bulma.min.css";
+
+.no-scroll {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }

@@ -1,0 +1,125 @@
+/* コンテナのスタイル */
+.company-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* body要素のスタイル */
+.company-body {
+    background-color: #000;
+    color: #ffffff;
+}
+
+/* タイトルのスタイル */
+.company-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* フォームのスタイル */
+.company-form {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* フィールドセットのスタイル */
+.company-form fieldset {
+    border: 1px solid #333;
+    margin-bottom: 15px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* フィールドセットのレジェンドのスタイル */
+.company-form fieldset legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+/* ラベルのスタイル */
+.company-label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* 入力フィールドのスタイル */
+.company-input {
+    width: calc(100% - 36px); /* ボタンの幅を考慮 */
+    padding: 8px;
+    margin-top: 5px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    display: inline-block; /* インラインブロックで要素を並べる */
+}
+
+/* ボタンのスタイル */
+.company-button {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* +追加 ボタンのスタイル */
+.company-button.green-button {
+    background-color: #4caf50;
+}
+
+.company-button.green-button:hover {
+    background-color: #388e3c;
+}
+
+/* -削除のスタイル */
+.delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block; /* インラインブロックで要素を並べる */
+    position: relative;
+    top: 8px; /* ボタンを中央に合わせるための調整 */
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+/* 入力フィールドとボタンのグループ */
+.field-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* 登録ボタンのスタイル */
+.submit-button {
+    width: 100%;
+    text-align: center;
+}
+
+/* フォームの中央下に配置する追加ボタン */
+.add-button {
+    display: block;
+    margin: 10px auto;
+}

@@ -1,0 +1,77 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Environment variables
+.env
+
+# Flask and Python
+instance/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Production
+dist/
+build/
+
+# Coverage
+coverage/
+.coverage
+
+# Dependency directories
+venv/
+virtualenv/
+
+# Miscellaneous
+*.swp
+*.bak
+*~
+
+# IDE specific files
+*.iml
+*.iws
+.idea/
+.idea/*
+.idea/modules.xml
+.idea/.name
+.idea/workspace.xml
+.idea/libraries
+.idea/misc.xml
+.idea/modules.xml
+*.ipr
+*.iws
+*.pyc
+*.pyo
+/backend/flask_session/

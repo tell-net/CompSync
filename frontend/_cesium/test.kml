@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <!-- Default Style for all lines -->
+    <Style id="defaultLineStyle">
+      <LineStyle>
+        <color>ff0000ff</color> <!-- Blue color -->
+        <width>5</width> <!-- Line width -->
+      </LineStyle>
+    </Style>
+    
+    <!-- Default properties for LineString -->
+    <tessellate>1</tessellate>
+    <curve>1</curve>
+    <altitudeMode>absolute</altitudeMode>
+    
+    <!-- First line -->
+    <Placemark>
+      <name>Curved Line 1</name>
+      <styleUrl>#defaultLineStyle</styleUrl> <!-- Reference the default line style -->
+      <LineString>
+        <altitudeMode>absolute</altitudeMode> <!-- Ensure altitude mode is absolute -->
+        <coordinates>
+          139.6971075,35.69159962,277.327 <!-- Adjust altitude -->
+          139.6955,35.6917,300 <!-- Adjust altitude -->
+          139.69396682,35.69180067,282.657 <!-- Adjust altitude -->
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Second line -->
+    <Placemark>
+      <name>Curved Line 2</name>
+      <styleUrl>#defaultLineStyle</styleUrl> <!-- Reference the default line style -->
+      <LineString>
+        <altitudeMode>absolute</altitudeMode> <!-- Ensure altitude mode is absolute -->
+        <coordinates>
+          139.69042434,35.69594245,261.992 <!-- Adjust altitude -->
+          139.69396682,35.69180067,282.657 <!-- Adjust altitude -->
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Curved Line 2</name>
+      <styleUrl>#defaultLineStyle</styleUrl> <!-- Reference the default line style -->
+      <LineString>
+        <altitudeMode>absolute</altitudeMode> <!-- Ensure altitude mode is absolute -->
+        <coordinates>
+          139.69666249,35.6974042,121.476 <!-- Adjust altitude -->
+          139.69396682,35.69180067,182.657 <!-- Adjust altitude -->
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <!-- Add more Placemark elements for additional lines -->
+    
+  </Document>
+</kml>
